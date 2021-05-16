@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200&display=swap');
+/*Body*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+/*Buttons*/
+.GFG{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #1E90FF;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.GFG:hover, .GFG:focus, .GFG:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.Tekst {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'KoHo', sans-serif;
+    color: turquoise;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: steelblue;
+}
